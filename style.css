@@ -88,3 +88,20 @@
     letter-spacing: 1.1px;
     color: #999;
 }
+
+/* home Slider  */
+
+.swiper {
+    width: 95%;
+    height: 500px;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
