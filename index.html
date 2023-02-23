@@ -1,57 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TiffinWala</title>
-    <!-- font awesome cdn link  -->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TiffinWala</title>
+  <!-- font awesome cdn link  -->
 
-    <!-- google font cdn  -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Laila&family=Lato&family=Merienda&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
-    <!-- style css link file  -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- google font cdn  -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Laila&family=Lato&family=Merienda&display=swap"
+    rel="stylesheet" />
 
-    <!-- bootsrap icons cdn  -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
+  <!-- style css link file  -->
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- bootstrap cdn  -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- responsive style  -->
+  <link rel="stylesheet" href="ResponsiveStyle.css">
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+  <!-- bootsrap icons cdn  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  </head>
-  <body>
-    <!-- navbar  -->
+  <!-- bootstrap cdn  -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
 
-    <div class="navbarmainDiv">
-      <div class="navLogo">
-        <h1>TIFFINWALA</h1>
-      </div>
-      <div class="navigiationDiv">
-        <ol class="navTopOLTag">
-          <li><a href="#" class="navToplinks">Home</a></li>
-          <li><a href="#" class="navToplinks">How It Works</a></li>
-          <li><a href="#" class="navToplinks">Our Plans</a></li>
-          <li><a href="#" class="navToplinks">Monthly Menu</a></li>
-          <li>
-            <a href="#" class="navToplinks">Delivery Area</a>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar  -->
+
+  <div class="navbarmainDiv ">
+    <div class="navLogo">
+      <h1>TIFFINWALA</h1>
+    </div>
+    <div class="navigiationDiv">
+      <ol class="navTopOLTag">
+        <li><a href="#" class="navToplinks">Home</a></li>
+        <li><a href="#" class="navToplinks">How It Works</a></li>
+        <li><a href="#" class="navToplinks">Our Plans</a></li>
+        <li><a href="#" class="navToplinks">Monthly Menu</a></li>
+        <li>
+          <a href="#" class="navToplinkss navDDanchorLink">Delivery Area
+            <i class="fa-solid fa-chevron-down" id="navDDdown"></i>
+            <!-- <i class="fa-solid fa-angle-up" id="navDDup"></i></a> -->
             <div class="ddOne">
               <ol class="ddOLtag">
                 <li><a href="#" class="ddLinks">Karachi</a></li>
@@ -60,40 +56,74 @@
                 <li><a href="#" class="ddLinks">Quetta</a></li>
               </ol>
             </div>
-          </li>
-          <li><a href="#" class="navToplinks">Our Story</a></li>
-          <li><a href="#" class="navToplinks">Contact US</a></li>
-        </ol>
-      </div>
+        </li>
+        <li><a href="#" class="navToplinks">Our Story</a></li>
+        <li><a href="#" class="navToplinks">Contact US</a></li>
+      </ol>
     </div>
 
-    <!-- home page slider  -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="images/bg home page banner img 01.webp"></img>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/home page image 002.avif"></img>
+    <div class="topiconsDiv">
+      <div class="searchiconDiv">
+        <i class="fa-solid fa-magnifying-glass" id="navTopSearchicon"></i>
+        <div class="hideSearchDivMainForJquery" id="hideSearchDivMainForJquery">
+          <div class="hideSearchDivMain">
+            <div class="closeHideiconSearch">
+              <i class="fa-solid fa-xmark" id="hidecloseDivMainForJquery"></i>
+            </div>
+            <div class="searchDiv">
+              <div class="inpHidediv">
+                <input type="search" class="form-control" placeholder="Search Here ..." name="" id="">
+              </div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
           </div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-  
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-  
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
       </div>
-  
-    <!-- jquery cdn  -->
-    <script src="jqueryCDN.js"></script>
+      <!-- <div class="carticonDiv">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div class="cartmainDivForshowHideJquery" id="cartmainDivForshowHideJquery">
+          <div class="cartmainDiv"></div>
+        </div>
+      </div> -->
+    </div>
 
-    <!-- js file work  -->
-    <script src="main.js"></script>
-  </body>
+    <div class="resDicicons" onclick="navRes()">
+      <i class="fa-solid fa-bars menuNav" id="menuNavRes"></i>
+      <i class="fa-solid fa-xmark closeNav" id="closeNavRes"></i>
+    </div>
+  </div>
+
+  <!-- home page slider  -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="images/bg home page banner img 01.webp"></img>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://themewagon.github.io/restoran/img/bg-hero.jpg"></img>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="  "></div>
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+  <!-- jquery cdn  -->
+  <script src="jqueryCDN.js"></script>
+
+  <!-- js file work  -->
+  <script src="main.js"></script>
+
+  <!-- jquery work file  -->
+  <script src="jqueryMain.js"></script>
+</body>
+
 </html>
