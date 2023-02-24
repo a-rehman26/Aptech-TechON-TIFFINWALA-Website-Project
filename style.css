@@ -310,5 +310,114 @@
     background-color: black;
     color: gold;
     box-shadow: inset 0 0 300px 0 #333;
+}
 
+/* About us  */
+
+.aboutUStopContent {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.aboutUStopContent h1 {
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 800;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+    cursor: pointer;
+}
+
+
+.imgAboutusTop {
+    position: relative;
+    text-align: center;
+}
+
+.imgAboutusTop img {
+    position: relative;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.aboutUSTopContent {
+    text-align: center;
+}
+
+.aboutUSTopContent p {
+    padding: 10px 90px;
+    margin: 0;
+    line-height: 25px;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.AboutUSfounderHeadinhname {
+    position: relative;
+    text-align: center;
+    font-size: 3.3rem;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", Georgia, serif;
+    cursor: pointer;
+    padding: 25px 0 0 0;
+}
+
+.AboutUSfounderHeadinhname::before {
+    content: "-";
+    position: absolute;
+    top: 25px;
+    left: 420px;
+}
+
+.AboutUSfounderHeadinhname h4 {
+    padding: 10px 90px;
+    margin: 0;
+    line-height: 25px;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.aboutUSimg2Div {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 25px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.aboutUSimg2Div img {
+    width: 100%;
+    height: 100%;
+}
+
+.hideAboutUSimg2Div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.aboutUSimg2Div:hover .hideAboutUSimg2Div {
+    opacity: 1;
+    visibility: visible;
 }
