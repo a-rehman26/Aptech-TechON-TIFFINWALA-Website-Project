@@ -18,7 +18,8 @@
     align-items: center;
 }
 
-.navLogo h1 {
+.navLogo a {
+    text-decoration: none;
     font-size: 3rem;
     color: lightgray;
     text-transform: uppercase;
@@ -32,6 +33,11 @@
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Merienda', cursive;
     cursor: pointer;
+}
+
+.navLogo a:hover {
+    text-decoration: none;
+    color: lightgray;
 }
 
 .navTopOLTag {
@@ -420,4 +426,238 @@
 .aboutUSimg2Div:hover .hideAboutUSimg2Div {
     opacity: 1;
     visibility: visible;
+}
+
+
+/* contact us  */
+.contactUStopHeadings h1 {
+    text-align: center;
+    padding: 75px 0 25px 0;
+    font-size: 3.4rem;
+    font-weight: 800;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+}
+
+.frmDivinput {
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+}
+
+.frmDivinput input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.textareaFrm {
+    resize: vertical;
+    outline: none;
+    margin: 10px 0 30px 0;
+    cursor: pointer;
+}
+
+.btnFrm {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.btnFrm button {
+    padding: 8px 18px;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    background-color: white;
+    color: #111;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 0.4px;
+}
+
+.btnFrm button:hover {
+    color: whitesmoke;
+    background-color: #333;
+}
+
+
+/* footer email  */
+
+.footerEmaildiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: #111;
+    margin: 50px 0 0 0;
+}
+
+.footerEmaildiv h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Merienda', cursive;
+}
+
+.footerEmaildiv p {
+    padding: 10px 0;
+    margin: 0;
+    line-height: 25px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-family: 'Aladin', cursive;
+    text-align: center;
+}
+
+.footeremailinputdiv {
+    width: 100%;
+    height: 42px;
+    position: relative;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+}
+
+.footeremailinputdiv input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-emailBtn-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnFooter button {
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    background-color: white;
+    color: #111;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnFooter button:hover {
+    color: whitesmoke;
+    background-color: #333;
+    border: 1px solid #555;
+}
+
+.errorFooterP {
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.errorFooterP p {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    text-transform: none;
+}
+
+
+/* footer last  */
+.footerMainLastdiv {
+    width: 100%;
+    height: 250px;
+    padding: 5px 0;
+}
+
+.footerBoxdiv h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 25px 0 5px 0;
+}
+
+.footerdiv1 h2 {
+    font-size: 2rem;
+    /* font-weight: 600; */
+    color: #333;
+    text-transform: uppercase;
+    /* font-family: 'Bree Serif', serif; */
+    /* font-family: 'Pinyon Script', cursive; */
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.footerdiv1 p {
+    padding: 2px 0 5px 0;
+    margin: 0;
+    color: #222;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.footerNav {
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.footerNav li a {
+    color: #333;
+    display: block;
+    padding: 4px 0;
+    font-size: 1.6rem;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.footerdiv2icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer-divs {
+    margin: 23px 15px 0 0;
+    border: 1px solid white;
+    background-color: #111;
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons-footer-divs:hover {
+    background-color: white;
+    color: #333;
+    border: 1px solid gray;
 }

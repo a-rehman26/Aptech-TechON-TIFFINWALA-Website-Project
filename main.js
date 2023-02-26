@@ -49,3 +49,23 @@ function navRes() {
     }
 
 }
+
+
+// footer email 
+function btnFooter() {
+    let footerEmail = document.getElementById("footerEmailid").value;
+    let footerBrdclrDiv = document.getElementById("footerDivBRDclr");
+    let footerPerror = document.getElementById("errorFooterP")
+
+    if (footerEmail === "") {
+        footerPerror.innerHTML = "*This Field is a Required"
+        footerBrdclrDiv.style.border = "2px solid red"
+
+        return false;
+    }
+
+    else {
+        footerPerror.innerHTML = ""
+        footerBrdclrDiv.style.border = "2px solid gray"
+    }
+}
