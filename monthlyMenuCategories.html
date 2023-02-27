@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monthly Menu and Categories</title>
+  <!-- font awesome cdn link  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+  <!-- google font cdn  -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Laila&family=Lato&family=Merienda&display=swap"
+    rel="stylesheet" />
+
+  <!-- style css link file  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- responsive style  -->
+  <link rel="stylesheet" href="ResponsiveStyle.css">
+
+  <!-- bootsrap icons cdn  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+  <!-- bootstrap cdn  -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar  -->
+
+  <div class="navbarmainDiv ">
+    <div class="navLogo">
+      <a>TIFFINWALA</a>
+    </div>
+    <div class="navigiationDiv">
+      <ol class="navTopOLTag">
+        <li><a href="#" class="navToplinks">Home</a></li>
+        <li><a href="#" class="navToplinks">How It Works</a></li>
+        <li><a href="#" class="navToplinks">Our Plans</a></li>
+        <li><a href="#" class="navToplinks">Monthly Menu</a></li>
+        <li>
+          <a href="#" class="navToplinkss navDDanchorLink">Delivery Area
+            <i class="fa-solid fa-chevron-down" id="navDDdown"></i>
+            <!-- <i class="fa-solid fa-angle-up" id="navDDup"></i></a> -->
+            <div class="ddOne">
+              <ol class="ddOLtag">
+                <li><a href="#" class="ddLinks">Karachi</a></li>
+                <li><a href="#" class="ddLinks">Lahore</a></li>
+                <li><a href="#" class="ddLinks">Islamabad</a></li>
+                <li><a href="#" class="ddLinks">Quetta</a></li>
+              </ol>
+            </div>
+        </li>
+        <li><a href="#" class="navToplinks">Our Story</a></li>
+        <li><a href="#" class="navToplinks">Contact US</a></li>
+      </ol>
+    </div>
+
+    <div class="topiconsDiv">
+      <div class="searchiconDiv">
+        <i class="fa-solid fa-magnifying-glass" id="navTopSearchicon"></i>
+        <div class="hideSearchDivMainForJquery" id="hideSearchDivMainForJquery">
+          <div class="hideSearchDivMain">
+            <div class="closeHideiconSearch">
+              <i class="fa-solid fa-xmark" id="hidecloseDivMainForJquery"></i>
+            </div>
+            <div class="searchDiv">
+              <div class="inpHidediv">
+                <input type="search" class="form-control" placeholder="Search Here ..." name="" id="">
+              </div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="carticonDiv">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div class="cartmainDivForshowHideJquery" id="cartmainDivForshowHideJquery">
+          <div class="cartmainDiv"></div>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="resDicicons" onclick="navRes()">
+      <i class="fa-solid fa-bars menuNav" id="menuNavRes"></i>
+      <i class="fa-solid fa-xmark closeNav" id="closeNavRes"></i>
+    </div>
+  </div>
+
+  <!-- monthly menu catoegrioes bg image  -->
+  <section id="bgImageMonthlymenu">
+    <div class="contentMonthlyMenudiv">
+        <h2>Monthly Menu & Categories</h2>
+    </div>
+  </section>
+
+
+  <!-- comparision page  -->
+  <div class="comparisionPageTopHeadig">
+    <h1>Comparision Page</h1>
+  </div>
+ 
+
+  <!-- categoeries  -->
+  <div class="categoriesTopContent">
+    <h1>Categories</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="boxCategoryFoodmainDiv">
+          <div class="boxCategoryHeadingDiv">
+            <h2>Vegeterian </h2>
+          </div>
+          <div class="boxCategoryimgDiv">
+            <img src="images/gallery img 08.avif" alt="">
+          </div>
+          <div class="boxCategorycontentDiv">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore aut recusandae.</p>
+          </div>
+          <div class="boxCategorybtnDiv">
+            <h2>RS: 800</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="boxCategoryFoodmainDiv">
+          <div class="boxCategoryHeadingDiv">
+            <h2>Non Vegeterian </h2>
+          </div>
+          <div class="boxCategoryimgDiv">
+            <img src="images/gallery img 01.avif" alt="">
+          </div>
+          <div class="boxCategorycontentDiv">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore aut recusandae.</p>
+          </div>
+          <div class="boxCategorybtnDiv">
+            <h2>RS: 1800</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="boxCategoryFoodmainDiv">
+          <div class="boxCategoryHeadingDiv">
+            <h2>Sweet Dishes </h2>
+          </div>
+          <div class="boxCategoryimgDiv">
+            <img src="images/gallery img 03.avif" alt="">
+          </div>
+          <div class="boxCategorycontentDiv">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore aut recusandae.</p>
+          </div>
+          <div class="boxCategorybtnDiv">
+            <h2>RS: 4500</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="boxCategoryFoodmainDiv">
+          <div class="boxCategoryHeadingDiv">
+            <h2>Fast Food </h2>
+          </div>
+          <div class="boxCategoryimgDiv">
+            <img src="images/gallery img 07.avif" alt="">
+          </div>
+          <div class="boxCategorycontentDiv">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore aut recusandae.</p>
+          </div>
+          <div class="boxCategorybtnDiv">
+            <h2>RS: 700</h2>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="boxCategoryFoodmainDiv">
+          <div class="boxCategoryHeadingDiv">
+            <h2>Mix Food </h2>
+          </div>
+          <div class="boxCategoryimgDiv">
+            <img src="images/gallery img 02.avif" alt="">
+          </div>
+          <div class="boxCategorycontentDiv">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore aut recusandae.</p>
+          </div>
+          <div class="boxCategorybtnDiv">
+            <h2>RS: 4000</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- footer  -->
+  <div class="container">
+    <div class="row">
+      <div class="footerEmaildiv">
+        <h1>BE THE FIRST
+        </h1>
+        <p>New arrivals. Exclusive previews. First access to sales. <br> Sign up to stay in the know.
+        </p>
+        <div class="footer-emailBtn-flex">
+          <div class="col-lg-4">
+            <div class="footeremailinputdiv form-control" id="footerDivBRDclr">
+              <input type="email" name="" class=" form-control" placeholder="Enter Your Email" id="footerEmailid" required>
+            </div>
+            <div class="errorFooterP">
+              <p id="errorFooterP"></p>
+            </div>
+          </div>
+              <div class="btnFooter">
+                <form onsubmit="return btnFooter()">
+                  <button>SIGN UP</button>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="footerMainLastdiv">
+        <div class="col-lg-3">
+          <div class="footerBoxdiv">
+            <h1>Open Timing</h1>
+            <div class="footerdiv1">
+              <h2>Monday - Friday</h2>
+              <p>7 am - 10 pm</p>
+              <p>(Breakfast , Lunch, Dinner)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footerBoxdiv">
+            <h1>CUSTOMER SERVICE </h1>
+              <ol class="footerNav">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Delivery & Orders</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Track My Order</a></li>
+              </ol>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footerBoxdiv">
+            <h1>COMPANY</h1>
+              <ol class="footerNav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Store locator</a></li>
+                <li><a href="#">Store Addresses</a></li>
+                <li><a href="#">Payment Guide</a></li>
+              </ol>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footerBoxdiv">
+            <h1>FOLLOW US</h1>
+            <div class="footerdiv2icons">
+              <div class="icons-footer-divs">
+                <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                <i class="bi bi-meta"></i>
+              </div>
+              <div class="icons-footer-divs">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icons-footer-divs">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="icons-footer-divs">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery cdn  -->
+  <script src="jqueryCDN.js"></script>
+
+  <!-- js file work  -->
+  <script src="main.js"></script>
+
+  <!-- jquery work file  -->
+  <script src="jqueryMain.js"></script>
+</body>
+
+</html>
