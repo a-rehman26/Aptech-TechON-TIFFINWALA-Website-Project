@@ -96,7 +96,7 @@
   <!-- monthly menu catoegrioes bg image  -->
   <section id="bgImageMonthlymenu">
     <div class="contentMonthlyMenudiv">
-        <h2>Monthly Menu & Categories</h2>
+      <h2>Monthly Menu & Categories</h2>
     </div>
   </section>
 
@@ -105,7 +105,92 @@
   <div class="comparisionPageTopHeadig">
     <h1>Comparision Page</h1>
   </div>
- 
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-lg-6">
+        <div class="box">
+          <table class="table">
+            <tr>
+              <select id="select1" class="form-control" onchange="dish01()">
+                <option value="" hidden="true">-- Select Any Food Dish --</option>
+                <option value="">Vegeterian</option>
+                <option value="">Non Vegeterian</option>
+                <option value="">Sweet Dishes</option>
+                <option value="">Fast Food</option>
+                <option value="">Mix Food</option>
+              </select>
+            </tr>
+
+            <tr>
+              <div class="imgComparisionPageempty">
+                <img src="images/emty image 01.png" alt="" id="img1">
+              </div>
+            </tr>
+
+            <tr>
+              <th>Dish Name:</th>
+              <td id="dishName1">N/A</td>
+            </tr>
+
+            <tr>
+              <th>Dish Price:</th>
+              <td id="dishPrice1">N/A</td>
+            </tr>
+
+            <tr>
+              <th>Dish Description:</th>
+              <td id="dishDes1">N/A</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="box">
+          <table class="table">
+            <tr>
+              <select id="select2" class="form-control" onchange="dish02()">
+                <option value="" hidden="true">-- Select Any Food Dish --</option>
+                <option value="">Vegeterian</option>
+                <option value="">Non Vegeterian</option>
+                <option value="">Sweet Dishes</option>
+                <option value="">Fast Food</option>
+                <option value="">Mix Food</option>
+              </select>
+            </tr>
+
+            <tr>
+              <div class="imgComparisionPageempty">
+                <img src="images/emty image 01.png" alt="" id="img2">
+              </div>
+            </tr>
+
+            <tr>
+              <th>Dish Name:</th>
+              <td id="dishName2">N/A</td>
+            </tr>
+
+            <tr>
+              <th>Dish Price:</th>
+              <td id="dishPrice2">N/A</td>
+            </tr>
+
+            <tr>
+              <th>Dish Description:</th>
+              <td id="dishDes2">N/A</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+
 
   <!-- categoeries  -->
   <div class="categoriesTopContent">
@@ -197,7 +282,7 @@
     </div>
   </div>
 
-  
+
 
   <!-- footer  -->
   <div class="container">
@@ -210,25 +295,26 @@
         <div class="footer-emailBtn-flex">
           <div class="col-lg-4">
             <div class="footeremailinputdiv form-control" id="footerDivBRDclr">
-              <input type="email" name="" class=" form-control" placeholder="Enter Your Email" id="footerEmailid" required>
+              <input type="email" name="" class=" form-control" placeholder="Enter Your Email" id="footerEmailid"
+                required>
             </div>
             <div class="errorFooterP">
               <p id="errorFooterP"></p>
             </div>
           </div>
-              <div class="btnFooter">
-                <form onsubmit="return btnFooter()">
-                  <button>SIGN UP</button>
-                </form>
-            </div>
+          <div class="btnFooter">
+            <form onsubmit="return btnFooter()">
+              <button>SIGN UP</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="footerMainLastdiv">
+  <div class="container">
+    <div class="row">
+      <div class="footerMainLastdiv">
         <div class="col-lg-3">
           <div class="footerBoxdiv">
             <h1>Open Timing</h1>
@@ -242,25 +328,25 @@
         <div class="col-lg-3">
           <div class="footerBoxdiv">
             <h1>CUSTOMER SERVICE </h1>
-              <ol class="footerNav">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Delivery & Orders</a></li>
-                <li><a href="#">Returns & Exchanges</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Track My Order</a></li>
-              </ol>
+            <ol class="footerNav">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Delivery & Orders</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Track My Order</a></li>
+            </ol>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footerBoxdiv">
             <h1>COMPANY</h1>
-              <ol class="footerNav">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Store locator</a></li>
-                <li><a href="#">Store Addresses</a></li>
-                <li><a href="#">Payment Guide</a></li>
-              </ol>
+            <ol class="footerNav">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Store locator</a></li>
+              <li><a href="#">Store Addresses</a></li>
+              <li><a href="#">Payment Guide</a></li>
+            </ol>
           </div>
         </div>
         <div class="col-lg-3">
